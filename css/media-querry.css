@@ -1,0 +1,58 @@
+@media(min-width:500px) {
+    .box-text {
+        font-size: 2.5vw;
+    }
+
+    .content-img {
+        width: 100%;
+    }
+
+    .parallax {
+        height: 100%;
+    }
+
+    .tapsi-advantages h1 {
+        font-size: 3vw;
+    }
+
+    .tapsi-advantages p {
+        font-size: 1.8vw;
+        width: 100%;
+    }
+
+    .tapsi-advantages button {
+        width: 45%;
+    }
+}
+
+@media(min-width:992px) {
+    .box-text {
+        font-size: 1.2rem;
+    }
+
+    .content-img {
+        width: 45%;
+    }
+    
+    .parallax-box {
+        width: 50%;
+    }
+
+    .parallax {
+        max-height: 12rem;
+    }
+
+    .tapsi-advantages h1 {
+        font-size: 2.5rem;
+    }
+
+    .tapsi-advantages p {
+        font-size: 1.3vw;
+        width: 85%;
+    }
+
+    .tapsi-advantages button {
+        width: auto;
+    }
+}
+

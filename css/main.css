@@ -1,0 +1,261 @@
+:root {
+  --mainOrange: #ff5722;
+  --mainWhite: #ffffff;
+}
+
+@font-face {
+  font-family: sahel;
+  src: url(../font/Sahel.ttf) format("tff"),
+    url(../font/Sahel.woff) format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sahel;
+}
+
+/* -------------------------------------------------------------------------  */
+
+.nav {
+  background: #f8f8f8;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  width: 35%;
+  margin-right: 10%;
+}
+
+.navbar-brand i {
+  color: var(--mainOrange);
+}
+
+.navbar-brand:hover p {
+  color: var(--mainOrange);
+}
+
+.navbar-brand:hover i {
+  color: black;
+}
+
+.navbar-btn {
+  background-color: var(--mainOrange);
+  color: var(--mainWhite);
+  padding: 10px 40px;
+}
+
+.navbar-btn:hover {
+  background-color: var(--mainOrange);
+  color: var(--mainWhite);
+  transform: scale(0.98);
+}
+
+.nav-link:hover {
+  color: var(--mainOrange);
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+/* -------------------------------------- end of nav -------------------------------------  */
+
+.header {
+  background-image: url(../img/banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33rem;
+}
+
+.header-img {
+  position: relative;
+  width: 30%;
+  height: 30%;
+}
+
+.header-content {
+  background-color: rgba(30, 41, 63, 0.7);
+}
+
+.header-btn {
+  height: 3.5rem;
+  width: 14rem;
+  border-radius: 12px;
+  transition: none;
+}
+
+.header-btn:hover p {
+  color: #4d4d53;
+}
+
+.header-btn:hover i {
+  color: black;
+}
+
+.header-btn-2 {
+  background-color: rgba(30, 41, 63, 0.8);
+  height: 3.5rem;
+  width: 14rem;
+  border-radius: 12px;
+  transition: none;
+}
+
+.header-btn-2:hover p {
+  color: rgba(228, 228, 238, 1);
+}
+
+.header-btn-2:hover {
+  background-color: rgba(30, 41, 63, 0.8);
+}
+
+/* --------------------------------------- end of header ---------------------------------------- */
+
+main {
+  margin-top: 10rem;
+}
+main a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.tapsi-service {
+  opacity: 0.5;
+}
+
+.tapsi-service:hover {
+  opacity: 1;
+}
+
+.tapsi-service:hover .nav-link {
+  color: black !important;
+}
+
+.tapsi-services {
+  background: var(--mainWhite) !important;
+}
+
+.tapsi-service:hover {
+  opacity: 1 !important;
+}
+
+.tapsi-service-post {
+  display: none;
+}
+
+.box-btn {
+  background: var(--mainOrange);
+  color: var(--mainWhite);
+  padding: 13px 45px;
+}
+
+.box-btn:hover {
+  background: var(--mainOrange);
+  color: var(--mainWhite);
+  opacity: 0.9;
+}
+
+.box-text {
+  text-align: justify;
+  /* font-size: 1.2rem; */
+  width: 100%;
+}
+
+.box-img {
+  width: 45%;
+}
+
+/* ------------------------------- end of tapsi services post -------------------------  */
+
+.main-content-link {
+  color: var(--mainOrange);
+}
+
+.main-content-link:hover {
+  color: var(--mainOrange) !important;
+}
+
+.parallax {
+  background: url(../img/parallax.jpeg) center/cover fixed no-repeat;
+  margin: 6rem 0;
+}
+
+.parallax-text {
+  display: none;
+  font-size: 14px;
+}
+
+.parallax-h4:hover + .parallax-text {
+  display: block;
+}
+
+.parallax-h4:hover {
+  position: relative;
+  top: -20px;
+}
+
+/* -------------------------- end of parallax -------------------------  */
+
+.tapsi-advantages button {
+  background: #0065dc;
+}
+
+.tapsi-advantages button:hover {
+  background: #1974df;
+}
+
+/* -------------------- end of advantages ---------------------  */
+
+.new-single-post {
+  height: 25%;
+}
+
+.new-single-post p {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: grey;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.new-single-post:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* ------------------------------ end of tapsi new -------------------------  */
+
+.tapsi-cities {
+  background: #f8f8f9 url(../img/map-back.svg) no-repeat;
+}
+
+.city {
+  width: 12%;
+  padding: 20px;
+}
+
+/* -------------------end of main -----------------  */
+
+.footer-text {
+  font-size: 0.8rem;
+}
+
+.footer-link:hover {
+  color: var(--mainOrange) !important;
+}
+
+.social-media a {
+    color: grey;
+}
+
+.social-media i:hover {
+    color: #FB8121;
+}
